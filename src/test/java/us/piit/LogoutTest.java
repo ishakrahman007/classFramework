@@ -1,12 +1,12 @@
 package us.piit;
 
-import junit.framework.Assert;
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
-import org.junit.Test;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.interactions.Actions;
+import org.testng.Assert;
+import org.testng.annotations.Test;
 
 public class LogoutTest extends SetUp{
     Logger log = LogManager.getLogger(LogoutTest.class.getName());
