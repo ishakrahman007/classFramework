@@ -6,8 +6,9 @@ import org.apache.logging.log4j.Logger;
 import org.openqa.selenium.By;
 import org.testng.Assert;
 import org.testng.annotations.Test;
+import us.piit.base.CommonAPI;
 
-public class LoginTest extends SetUp {
+public class LoginTest extends CommonAPI {
 
     Logger log = LogManager.getLogger(LoginTest.class.getName());
 

@@ -1,4 +1,4 @@
-package us.piit;
+package us.piit.base;
 
 
 import org.openqa.selenium.By;
@@ -16,7 +16,7 @@ import java.net.MalformedURLException;
 import java.net.URL;
 import java.time.Duration;
 
-public class SetUp {
+public class CommonAPI {
     String browserName = "chrome";
     String url = "https://www.saucedemo.com/";
     String useCloudEnv = "true";

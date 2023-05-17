@@ -7,8 +7,9 @@ import org.openqa.selenium.WebElement;
 import org.openqa.selenium.interactions.Actions;
 import org.testng.Assert;
 import org.testng.annotations.Test;
+import us.piit.base.CommonAPI;
 
-public class LogoutTest extends SetUp{
+public class LogoutTest extends CommonAPI {
     Logger log = LogManager.getLogger(LogoutTest.class.getName());
     @Test
     public void logout() throws InterruptedException {
